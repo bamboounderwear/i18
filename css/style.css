@@ -1,0 +1,15 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+nav {
+    margin-bottom: 2rem;
+}
+
+nav a {
+    margin-right: 1rem;
+}

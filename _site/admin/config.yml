@@ -1,0 +1,21 @@
+backend:
+  name: test-repo
+
+media_folder: "images"
+public_folder: "/images"
+
+i18n:
+  structure: multiple_folders
+  locales: [en, fr]
+  default_locale: en
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: true
+    i18n: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - { label: "Description", name: "description", widget: "text", i18n: true }
+      - { label: "Body", name: "body", widget: "markdown", i18n: true }

@@ -1,0 +1,12 @@
+{
+  "name": "eleventy-decapcms-i18n",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "decap-cms-app": "^3.1.3"
+  }
+}
